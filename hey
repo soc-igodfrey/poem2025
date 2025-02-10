@@ -1,0 +1,11 @@
+'''
+Task one
+'''
+# this program will ask a user their name and age and say what age they will be next year
+
+print("Kia Ora!")
+name = input ("What is your name")
+print("Hello",name)
+age = int(input("how old are you "+ name))
+next_year = age + 1 
+print("next year you will be",next_year,"years old")
