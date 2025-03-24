@@ -1,0 +1,27 @@
+#ask user for grade
+grade = int(input("What percent did you get on your test?"))
+
+
+#Detemind what grade they got
+if grade >= 90:
+  print("You got A. Well done!")
+elif grade >= 80:
+  print("You got B. Good job :)")
+elif grade >= 70:
+  print("You got c. Not too bad... :)")
+elif grade >= 60:
+  print("You got d. Try a bit harder next time.")
+elif grade >= 50:
+  print("You got f. ERMM you failed.")
+elif grade >= 40:
+  print("You got f-. You failed harder)")
+elif grade >= 30:
+  print("You got f--.You failed even Harder")
+elif grade >= 20:
+  print("I dont even want too tell you your grade, SMH")
+elif grade >= 10:
+  print("You got some right at least....")
+elif grade >= 0:
+  print(".... how just how")
+elif grade <0:
+  print("How did you get negative points FAIL.")
