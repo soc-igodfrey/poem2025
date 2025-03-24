@@ -1,0 +1,17 @@
+menu = "what would you like:\n\
+1. A compliment?\n\
+2. An insult?\n\
+3. A proveb?\n\
+4. Ab idiom\n\
+5. quit\n"
+answer = int(input(menu))
+if answer == 1:
+  print("You look great today!")
+elif answer == 2:
+  print("You smell funny!")
+elif answer == 3:  
+  print("Two wrongs don’t make a right, but three lefts do!")
+elif answer == 4:  # Fixed missing space after 'answer =='
+  print("Bob's your uncle!")
+elif answer == 5:
+        print("GO AWAY THEN!")
