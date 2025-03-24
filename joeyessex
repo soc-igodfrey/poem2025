@@ -1,0 +1,95 @@
+#Set up quiz
+print("Welcome to my Joey Essex Quiz!")
+
+#Set up variables 
+playing = input("Do you want to play my game? ")
+
+playing = playing.lower()
+playing = playing[0]
+
+score = 0
+
+
+# Start game
+if playing != "y":
+  print("Why did you click run dummy!!")
+  quit()
+
+print("Let's play now!!")
+
+answer = input("Where in England is Joey from? ")
+
+answer = answer.lower()
+answer = answer[:3]
+
+if answer == "ess":
+  print("well done")
+  score += 1
+else:
+  print("NOPE DUMMY!! He's from Essex, duhh its in his name oml!")
+print("Your score is: ", score)
+
+
+answer = input("How old is Joey? ")
+
+if answer == "34":
+  print("well done")
+  score += 1
+else:
+  print("Uhhhh no, he's 34.....")
+print("Your score is: ", score)
+
+
+answer = input("What song is Joey KNOWN for? ")
+
+answer = answer.lower()
+
+if answer == "reem":
+  print("You wanna look reem, smell reem, be reem, REEM!")
+  score += 1
+else:
+  print("ITS REEM, how could you not know! You wanna look reem, smell reem, be reem, REEM! ")
+print("Your score is now: ", score)
+
+answer = input("Does he have a pet? ")
+
+answer = answer.lower()
+
+if answer == "no":
+  print("Correct!")
+  score += 1
+else:
+  print("OMG YOU'RE WRONG")
+print("Your score is now: ", score)
+
+answer = input("Finally what season of Love Island UK was he on? ")
+
+answer = answer.lower()
+
+if answer == "11"  :
+  print("Yes and he came on as a bombshell")
+  score += 1
+else:
+  print("Come on, this one was easy!")
+print("Your score is now: ", score)
+
+
+if score == 5:
+  print("Well done you got 5/5. You must really like Joey. ME TOO!!")
+elif score == 4:
+  print("Good job, you got 4/5")
+elif score == 3:
+  print("You did ok.... You got 3/5")
+elif score == 2:
+  print("ermmm you only 2/5. I think you need to work on your skills")
+elif score == 1:
+  print("ONLY 1/5. How dumb are you")
+elif score == 0:
+  print("You got none right, I don't even know what to say")
+else:
+  print("UHHH You broke the code idk how you got this message, but well done I guess")
+
+
+
+
+
